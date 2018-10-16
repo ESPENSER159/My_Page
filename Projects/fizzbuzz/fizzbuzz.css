@@ -1,0 +1,159 @@
+
+
+body{
+	font-family: 'Concert One', cursive;
+	color: #212121;
+}
+
+div.title{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding:0;
+	width:245px;
+	text-align:center;
+	height:auto;
+	background:transparent;
+}
+
+#espacio1{
+	padding:0;
+	width:30px;
+	float:left;
+	height:auto;
+}
+
+.letters{
+	text-align: center;
+	font-size: 50px;
+	color: #00c3ff;
+	font-weight: bold;
+}
+
+#letterFour{
+	animation: letterFour 3s infinite;
+}
+@keyframes letterFour{
+	10%{background-color: tomato; color: white}
+}
+
+#letterThree{
+	animation: letterThree 3s infinite;
+}
+@keyframes letterThree{
+	30%{background-color: tomato; color: white}
+}
+
+#letterTwo{
+	animation: letterTwo 3s infinite;
+}
+@keyframes letterTwo{
+	60%{background-color: tomato; color: white}
+}
+
+#letterOne{
+	animation: letterOne 3s infinite;
+}
+@keyframes letterOne{
+	90%{background-color: tomato; color: white}
+}
+
+
+/* other midle */
+#letterFive{
+	animation: letterFive 3s infinite;
+}
+@keyframes letterFive{
+	10%{background-color: tomato; color: white}
+}
+
+#letterSix{
+	animation: letterSix 3s infinite;
+}
+@keyframes letterSix{
+	30%{background-color: tomato; color: white}
+}
+
+#letterSeven{
+	animation: letterSeven 3s infinite;
+}
+@keyframes letterSeven{
+	60%{background-color: tomato; color: white}
+}
+
+#letterEight{
+	animation: letterEight 3s infinite;
+}
+@keyframes letterEight{
+	90%{background-color: tomato; color: white}
+}
+
+
+#enter{
+	margin-top: 0;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+#content{
+	overflow-y: scroll;
+	width: 30%;
+	height: 50vh;
+	border-radius: 8px;
+	border: 5px solid black;
+	background-color: #74e1ec;
+	word-wrap: break-word;
+}
+
+div.all{
+	clear: both;
+	margin-top: 20px;
+}
+
+#cant{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	animation: anim 5s infinite;
+}
+@keyframes anim{
+	50%{color: white}
+}
+
+input {
+	border-radius: 5px;
+	width: 10%;
+	min-width: 50px;
+	text-align: center;
+	font-family: 'Concert One', cursive;
+	font-size: 15px;
+}
+
+p {
+	margin: 0;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+}
+
+/* scroll personalised */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: tomato; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #844eff; 
+}
+
+/*///////////////////////////*/

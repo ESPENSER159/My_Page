@@ -1,0 +1,69 @@
+<!-- Creditos para la paleta de colores de Farbtastic Color Picker (https://acko.net/blog/farbtastic-jquery-color-picker-plug-in/) -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/animate.min.css">
+		<link rel="icon" type="image/png" href="pencil.png">
+
+		<title> Drawing in Canvas </title>
+		<link rel="stylesheet" href="canvas.css" type="text/css" />
+		
+		<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+		
+	</head>
+	<body>
+		<h1 class="color tittle animated lightSpeedIn slow">CANVAS</h1>
+
+		<div id="content">
+			<div id="contentBack">
+				<p class="fondo">Fondo</p>
+				<div class="fond" onclick="fond()" style="background-color: #eaecee;"></div>
+				<div class="fond" onclick="fond1()" style="background-color: #D5D8DC;"></div>
+				<div class="fond" onclick="fond2()" style="background-color: #ABB2B9;"></div>
+				<div class="fond" onclick="fond3()" style="background-color: #808B96;"></div>
+				<div class="fond" onclick="fond4()" style="background-color: #566573;"></div>
+				<div class="fond" onclick="fond5()" style="background-color: #2C3E50;"></div>
+				<div class="fond" onclick="fond6()" style="background-color: #273746;"></div>
+			</div>
+			
+			
+			<canvas id="papel" width="500" height="500"></canvas>
+			
+
+			<div id="contentControls">
+				<form id="palet">
+		  			<div class="form-item">
+		  				<input type="text" id="color" name="color" value="#22d1e2" class="colorwell textcolor"/>
+		  				<p></p>
+		  			</div>
+		  			<div id="picker"></div>
+		  			<br>
+		  			<p class="color sizePen">Tamaño del Pincel</p>
+		  			<div id="sizepen">
+		  				<div class="size" onclick="size()">5</div>
+		  				<div class="size" onclick="size1()">10</div>
+		  				<div class="size" onclick="size2()">15</div>
+		  				<div class="size" onclick="size3()">20</div>
+		  			</div>
+				</form>
+			</div>
+
+		</div>
+
+	
+		<div class="clean" onclick="clean()">BORRAR</div>
+
+		<div id="github">
+
+			<img id="imgGitHub" src="../../imgs/github.png">
+			
+			<a href="https://github.com/ESPENSER159/Drawing-in-canvas" target="_blank">> https://github.com/ESPENSER159/Drawing-in-canvas</a>
+
+		</div>
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="controls.js"></script>
+	</body>
+</html>

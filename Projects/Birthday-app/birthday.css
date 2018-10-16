@@ -1,0 +1,118 @@
+body {
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	margin: 0;
+	background-color: #CFD8DC;
+  font-size: 3vw;
+}
+
+h1 {
+	color: #d02a3a;
+	text-shadow: 5px 5px 40px #979797;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 3vw;
+	display: inline-flex;
+}
+
+
+img.iconApp {
+	width: 3vw;
+	height: 3vw;
+	display: inline;
+}
+
+p {
+  margin: 0;
+  font-size: 2vw;
+}
+
+p#descrip {
+	font-size: 2vw;
+}
+
+#imgApp {
+  margin-top: 10px;
+	width: 35%;
+	height: 35%;
+}
+
+
+/*/////////////////////*/
+/* Descargar APP */
+#downloadAPP {
+  margin-top: 0;
+  background-color: #22c96b7d;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+#downloadAPP:hover {
+  background-color: #000;
+}
+
+
+/*/////////////////////*/
+/* GitHub */
+#github {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imgGitHub {
+  width: 10vw;
+  height: 4vh;
+}
+
+a {
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  margin: 0;
+  vertical-align: middle;
+  color: #2e61cc;
+  text-decoration: none;
+}
+a:visited {
+    
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* scroll personalised */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: tomato; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #844eff; 
+}
+
+/*///////////////////////////*/
