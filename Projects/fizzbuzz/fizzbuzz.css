@@ -3,54 +3,42 @@
 body{
 	font-family: 'Concert One', cursive;
 	color: #212121;
+	margin: 0;
 }
 
-div.title{
-	margin-top: 40px;
-	margin-bottom: 40px;
-	padding:0;
-	width:245px;
+div#title{
+	margin-top: 5px;
+	margin-left: 100px;
+	width:50vw;
 	text-align:center;
 	height:auto;
 	background:transparent;
 }
 
-#espacio1{
-	padding:0;
-	width:30px;
-	float:left;
-	height:auto;
-}
 
-.letters{
-	text-align: center;
-	font-size: 50px;
-	color: #00c3ff;
-	font-weight: bold;
-}
 
-#letterFour{
+.letterFour{
 	animation: letterFour 3s infinite;
 }
 @keyframes letterFour{
 	10%{background-color: tomato; color: white}
 }
 
-#letterThree{
+.letterThree{
 	animation: letterThree 3s infinite;
 }
 @keyframes letterThree{
 	30%{background-color: tomato; color: white}
 }
 
-#letterTwo{
+.letterTwo{
 	animation: letterTwo 3s infinite;
 }
 @keyframes letterTwo{
 	60%{background-color: tomato; color: white}
 }
 
-#letterOne{
+.letterOne{
 	animation: letterOne 3s infinite;
 }
 @keyframes letterOne{
@@ -59,28 +47,28 @@ div.title{
 
 
 /* other midle */
-#letterFive{
+.letterFive{
 	animation: letterFive 3s infinite;
 }
 @keyframes letterFive{
 	10%{background-color: tomato; color: white}
 }
 
-#letterSix{
+.letterSix{
 	animation: letterSix 3s infinite;
 }
 @keyframes letterSix{
 	30%{background-color: tomato; color: white}
 }
 
-#letterSeven{
+.letterSeven{
 	animation: letterSeven 3s infinite;
 }
 @keyframes letterSeven{
 	60%{background-color: tomato; color: white}
 }
 
-#letterEight{
+.letterEight{
 	animation: letterEight 3s infinite;
 }
 @keyframes letterEight{
@@ -95,9 +83,11 @@ div.title{
 }
 
 #content{
+	font-size: 3vw;
+	margin-bottom: 20px;
 	overflow-y: scroll;
 	width: 30%;
-	height: 50vh;
+	height: 80%;
 	border-radius: 8px;
 	border: 5px solid black;
 	background-color: #74e1ec;
@@ -105,40 +95,86 @@ div.title{
 }
 
 div.all{
+	height: 70vh;
 	clear: both;
 	margin-top: 20px;
 }
 
 #cant{
+	color: #686868;
 	margin-bottom: 10px;
 	margin-top: 20px;
 	font-weight: bold;
 	animation: anim 5s infinite;
 }
-@keyframes anim{
-	50%{color: white}
+
+input[type=text], select {
+    width: 15%;
+    height: 4vh;
+    min-height: 30px;
+    max-height: 500px;
+    padding: 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #686868;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+	font-size: 2vw;
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    margin-top: 10px;
 }
 
-input {
-	border-radius: 5px;
-	width: 10%;
-	min-width: 50px;
-	text-align: center;
-	font-family: 'Concert One', cursive;
-	font-size: 15px;
+input[type=text]:focus {
+    border: 4px solid #555;
 }
+
+
+input[type=button] {
+	font-family: 'Concert One', cursive;
+	font-size: 1.5vw;
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 5px #666;
+}
+
+input[type=button]:hover {
+	background-color: grey;
+	color: tomato;
+}
+
+input[type=button]:active {
+	background-color: grey;
+	color: tomato;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+
 
 p {
 	margin: 0;
-	font-family: 'Concert One', cursive;
-	font-size: 20px;
+}
+
+#textFB {
+	font-size: 2vw;
 }
 
 /* scroll personalised */
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 
 /* Track */

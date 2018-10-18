@@ -6,7 +6,7 @@ body {
   font-size: 3vw;
 }
 
-h1 {
+h1#title {
 	color: #d02a3a;
 	text-shadow: 5px 5px 40px #979797;
 	font-weight: bold;
@@ -16,10 +16,15 @@ h1 {
 }
 
 
-img.iconApp {
+img#iconApp {
 	width: 3vw;
-	height: 3vw;
+	height: auto;
 	display: inline;
+}
+img#iconApp2 {
+  width: 3vw;
+  height: auto;
+  display: inline;
 }
 
 p {
@@ -27,14 +32,19 @@ p {
   font-size: 2vw;
 }
 
-p#descrip {
+#descrip {
 	font-size: 2vw;
+  margin: 0 50px 0 50px;
+}
+
+#enlace {
+  font-size: 2vw;
 }
 
 #imgApp {
-  margin-top: 10px;
-	width: 35%;
-	height: 35%;
+  margin-top: 20px;
+	width: 35vw;
+	height: auto;
 }
 
 
@@ -45,6 +55,7 @@ p#descrip {
   background-color: #22c96b7d;
   width: 20vw;
   border-radius: 10px;
+  font-size: 2.5vw;
 }
 
 #downloadAPP:hover {
@@ -55,7 +66,7 @@ p#descrip {
 /*/////////////////////*/
 /* GitHub */
 #github {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 10px;
   width: 100%;
   text-align: center;
@@ -65,6 +76,7 @@ p#descrip {
 }
 
 #imgGitHub {
+  padding-right: 10px;
   width: 10vw;
   height: auto;
 }
