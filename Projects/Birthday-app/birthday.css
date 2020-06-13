@@ -4,10 +4,12 @@ body {
 	margin: 0;
 	background-color: #CFD8DC;
   font-size: 3vw;
+  color: #212121d1;
 }
 
+
 h1#title {
-	color: #d02a3a;
+	color: #ff3540;
 	text-shadow: 5px 5px 40px #979797;
 	font-weight: bold;
 	font-style: italic;
@@ -27,19 +29,23 @@ img#iconApp2 {
   display: inline;
 }
 
+
 p {
   margin: 0;
   font-size: 2vw;
 }
 
+
 #descrip {
 	font-size: 2vw;
-  margin: 0 50px 0 50px;
+  margin: 20px 50px 0 50px;
 }
 
+
 #enlace {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
+
 
 #imgApp {
   margin-top: 20px;
@@ -49,35 +55,37 @@ p {
 
 
 /*/////////////////////*/
-/* Descargar APP */
 #downloadAPP {
-  margin-top: 0;
-  background-color: #22c96b7d;
+  color: #212121;
+  background-color: #ff9900d1;
   width: 20vw;
+  height: auto;
   border-radius: 10px;
   font-size: 2.5vw;
 }
 
 #downloadAPP:hover {
-  background-color: #000;
+  background-color: #f72f3d;
 }
+
 
 
 /*/////////////////////*/
 /* GitHub */
 #github {
+  color: #1b78ab;
   margin-top: 100px;
   margin-bottom: 10px;
   width: 100%;
   text-align: center;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
 
 #imgGitHub {
   padding-right: 10px;
-  width: 10vw;
+  width: 6vw;
   height: auto;
 }
 
@@ -90,21 +98,22 @@ a {
   text-decoration: none;
 }
 a:visited {
-    
+    color: #ff3540
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: #ff3540;
     background-color: transparent;
-    text-decoration: underline;
 }
 a:active {
-    color: yellow;
+    color: #f6a428;
     background-color: transparent;
     text-decoration: underline;
 }
 
+
+/*/////////////////////*/
 /* scroll personalised */
 
 /* width */
