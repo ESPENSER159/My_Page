@@ -2,15 +2,15 @@ body {
 	font-family: 'Concert One', cursive;
 	text-align: center;
 	margin: 0;
-	background-color: #CFD8DC;
+	background-color: #212121;
   font-size: 3vw;
-  color: #212121d1;
+  color: #d2feff;
 }
 
 
 h1#title {
 	color: #ff3540;
-	text-shadow: 5px 5px 40px #979797;
+	text-shadow: 5px 5px 40px #ff35408c;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 3vw;
@@ -49,7 +49,7 @@ p {
 
 #imgApp {
   margin-top: 20px;
-	width: 35vw;
+	width: 40vw;
 	height: auto;
 }
 

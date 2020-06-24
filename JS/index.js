@@ -24,8 +24,6 @@ function btn3(){
 	= "Projects/Birthday-app/birthday.html";
 }
 
-
-
 function btn12(){
 	document.getElementById("frameload").src 
 	= "https://daneden.github.io/animate.css/";
